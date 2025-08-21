@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Prova",
+        "link": "https://www.google.it",
+        "date": "2025-08-21",
+        "favorite": true,
+        "mag": "La Chiave di Sophia"
+    },
+
+    {
+        "title": "Prova 2",
+        "link": "https//www.google.it",
+        "date": "2025-08-20",
+        "favorite": false,
+        "mag": "La Chiave di Sophia"
+    },
+
+    {
+        "title": "Prova 3",
+        "link": "https://www.crunchyroll.com",
+        "date": "2025-08-15",
+        "favorite": true,
+        "mag": "Boh"
+    }
+]

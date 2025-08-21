@@ -2,4 +2,14 @@
 layout: homeLayout.njk
 ---
 <H1>Page title</h1>
+<ul>
+    {% set favorites = articoli | selectattr("favorite", "equalto", true) %}
+    {% set ordered = favorites | sort(attribute = "date" | reverse)  %}
+    {% for article in ordered %}
+        <li>
+            <h3>{{ article.title  }}</h3>
+            <a href="{{ article.link  }}">{{ article.mag  }}</a>
+        </li>
+    {% endfor  %}
+</ul>
 <p>Hi</p>
